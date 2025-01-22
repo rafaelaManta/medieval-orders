@@ -1,0 +1,27 @@
+{
+  "name": "medieval-orders",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "npx expo run:android",
+    "ios": "npx expo run:ios",
+    "android:go": "expo run:android",
+    "ios:go": "expo run:ios",
+    "android:eas-dev": "eas build --platform android --profile development --local",
+    "ios:eas-dev": "eas build --platform ios --profile development --local",
+    "android:eas-prod": "eas build --platform android --profile production --local",
+    "ios:eas-prod": "eas build --platform ios --profile production --local"
+  },
+  "dependencies": {
+    "expo": "~52.0.27",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.6",
+    "expo-dev-client": "~5.0.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
