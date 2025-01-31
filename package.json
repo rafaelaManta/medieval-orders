@@ -4,24 +4,32 @@
   "main": "index.js",
   "scripts": {
     "start": "expo start",
-    "android": "npx expo run:android",
     "ios": "npx expo run:ios",
-    "android:go": "expo run:android",
-    "ios:go": "expo run:ios",
-    "android:eas-dev": "eas build --platform android --profile development --local",
-    "ios:eas-dev": "eas build --platform ios --profile development --local",
-    "android:eas-prod": "eas build --platform android --profile production --local",
-    "ios:eas-prod": "eas build --platform ios --profile production --local"
+    "android": "npx expo run:android"
   },
   "dependencies": {
-    "expo": "~52.0.27",
-    "expo-status-bar": "~2.0.1",
+    "@react-navigation/bottom-tabs": "^7.2.0",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "@tanstack/react-query": "^5.65.1",
+    "axios": "^1.7.9",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "expo": "52.0.27",
+    "expo-dev-client": "5.0.10",
+    "expo-status-bar": "2.0.1",
     "react": "18.3.1",
     "react-native": "0.76.6",
-    "expo-dev-client": "~5.0.10"
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "4.4.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-native": "^5.0.0",
+    "prettier": "^3.4.2"
   },
   "private": true
 }
